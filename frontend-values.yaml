@@ -8,7 +8,7 @@ image:
   repository: prasadchandu/java
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "react"
+  tag: "reactjs1"
 
 imagePullSecrets: [name: "dockerhub-cred"]
 nameOverride: ""
