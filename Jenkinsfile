@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('connecting to cluster'){
       steps{
-      sh 'kubectl config use-context arn:aws:eks:us-west-2:897276212041:cluster/devops-eks-gCFGYxzJ'
+      sh 'kubectl config use-context arn:aws:eks:us-west-2:844609451572:cluster/devops-eks-KEKg5KnX'
       }
   }
     stage('create frontend namespace'){
